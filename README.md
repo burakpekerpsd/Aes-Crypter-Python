@@ -25,4 +25,20 @@ IV değişkeninin uzunluğu şifreleme bloğunun uzunluğu ile aynıdır **(16 b
 
 Bu nedenle, güvenli bir şifreleme için, IV değişkeninin öngörülemeyecek kadar rastgele olması ve her şifreleme işlemi için benzersiz olması gereklidir. Kullanıcıların farklı bir IV değişkeni belirleyebilmesi için bu örnekte sabit bir değer kullanılmıştır, ancak gerçek dünyada, rastgele oluşturulan bir IV değeri kullanılması önerilir.
 
+
+## Kodun Kullanımı
+#### Gerekli kütüphanelerin yüklenmesi :
+Bu kodda **"Crypto.Cipher"**, **"base64"**, **"colorama"** ve **"pyfiglet"** kütüphaneleri kullanılmaktadır. Bu nedenle, kodu çalıştırmadan önce bu kütüphanelerin yüklenmesi gerekmektedir.
+
+#### Şifreleme işlemi yapmak için :
+- Programı çalıştırdığınızda, "1- Veri şifreleme işlemi" seçeneğini seçin.
+- Şifrelenecek metni ve şifreleme anahtarını girin.
+- Program, şifreli metni oluşturacak ve ekrana yazdıracaktır.
+
+#### Şifreli metni çözmek için :
+- Programı çalıştırdığınızda, "2- Veri şifresini çözme işlemi" seçeneğini seçin.
+- Çözülecek şifreli metni ve şifreleme anahtarını girin.
+- Program, çözülmüş metni ekrana yazdıracaktır.
+
+
 [LinkedIn](https://www.linkedin.com/in/burakpekerr/), [Instagram](https://instagram.com/burakpeker.psd)
